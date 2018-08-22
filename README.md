@@ -1,7 +1,7 @@
 # Slide2.0
 Slide with Back NodeJS and Front as ReactJS
 # Me
-My name is **Gabriel Costa**, from **Brazil**, this is my application that was developed in the classes of my university.
+My name is **Gabriel Costa**, from **Brazil**, this is my application that was developed in the my free time.
 
 ### Installation
 
