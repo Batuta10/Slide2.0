@@ -4,13 +4,13 @@ import Base from './Base';
 
 // Pure Componet
 const App = () => (
-  <Router>
-    <Switch>
-      <Route exact path="/" render={x => <Base {...x} page="Home" />} />
-      <Route exact path="/list" render={x => <Base {...x} page="List" />} />
-      <Route render={x => <Base {...x} />} />
-    </Switch>
-  </Router>
+    <Router>
+        <Switch>
+            <Route exact path="/" render={(x) => <Base {...x} page="HomeMobx" />} />
+            <Route exact path="/list" render={(x) => <Base {...x} page="List" />} />
+            <Route render={(x) => <Base {...x} />} />
+        </Switch>
+    </Router>
 );
 
 export default App;
