@@ -5,11 +5,12 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 import PhotoStore from './stores/PhotoStore';
+import UserStore from './stores/UserStore';
 
 const stores = {
-    PhotoStore
+    PhotoStore,
+    UserStore
 };
-window._____APP_STATE_____ = stores;
 
 ReactDOM.render(
     <Provider {...stores}>
